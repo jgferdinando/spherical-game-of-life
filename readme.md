@@ -92,25 +92,31 @@ The HEALPix package is available at [healpix.sourceforge.io](http://healpix.sour
 
 ## License
 
-This project is distributed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+### Dependency Licenses
 
-Contributions are welcome! Some interesting areas for enhancement:
+This project incorporates material from several open-source projects:
 
-- Pattern detection and analysis
-- Additional visualization modes
-- Performance optimizations
-- Pattern saving/loading functionality
-- Alternative cellular automata rules
+- [HEALPix](http://healpix.sourceforge.io/) (GPL-2.0+) - Used for spherical grid implementation
+- [PyOpenGL](http://pyopengl.sourceforge.net/) (BSD 3-Clause) - Used for 3D rendering
+- [Pygame](https://www.pygame.org/) (LGPL) - Used for window management and user interface
+- [NumPy](https://numpy.org/) (BSD 3-Clause) - Used for numerical computations
 
-Please feel free to:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+In accordance with the GPL, the complete source code of this project and any modifications to GPL-licensed components are made available under the same license terms.
 
-## Gallery
+### Rights Granted
 
-[Future enhancement: Add screenshots/GIFs of interesting patterns and behaviors]
+Under this license, you are free to:
+- Use this software for any purpose
+- Change the software to suit your needs
+- Share the software with others
+- Share your changes with others
+
+### Obligations
+
+When using this software, you must:
+- Include the original license and copyright notices
+- Make your source code available when distributing the software
+- Document changes you make to the software
+- Use the same license (GPL-3.0) for any derivative works

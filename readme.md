@@ -52,7 +52,7 @@ PyOpenGL-accelerate
 Setup:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spherical-game-of-life.git
+git clone https://github.com/jgferdinando/spherical-game-of-life.git
 cd spherical-game-of-life
 
 # Create and activate virtual environment

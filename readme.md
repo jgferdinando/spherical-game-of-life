@@ -2,11 +2,13 @@
 
 An implementation of Conway's Game of Life on a spherical surface using the HEALPix (Hierarchical Equal Area isoLatitude Pixelization) grid system. This project explores emergent behavior in cellular automata when constrained to a spherical topology.
 
-## Scientific Background
+[![Alt Text](docs/images/screenshot1.png)](docs/images/screenshot1.png)
+
+## Background
 
 ### Why Spherical?
 
-Traditional implementations of Conway's Game of Life operate on a flat grid with either bounded edges or torus topology (wrapping around edges). While the torus topology eliminates edge effects, it introduces its own geometric artifacts due to the toroidal surface's fundamental shape. A sphere provides a natural boundary-free surface for cellular automata to evolve, allowing for truly continuous patterns without edge artifacts.
+Most implementations of Conway's Game of Life operate on a flat grid with either bounded edges or torus topology (wrapping around edges). While the torus topology eliminates edge effects, it introduces its own geometric artifacts due to the toroidal surface's fundamental shape. A sphere provides a natural boundary-free surface for cellular automata to evolve, allowing for truly continuous patterns without edge artifacts.
 
 ### Why HEALPix?
 
